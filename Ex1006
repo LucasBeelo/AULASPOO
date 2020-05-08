@@ -1,0 +1,25 @@
+
+package com.mycompany.ex1006;
+import java.util.Scanner; 
+
+
+public class ex10006 {
+
+ 
+    public static void main(String[] args) {
+        
+        Scanner scan = new Scanner (System.in);
+        double n1 , n2 ,n3, media ; 
+        
+        System.out.println("Digite a Primeira , sgunda e terceira  nota  ");
+        n1=scan.nextDouble(); 
+        n2=scan.nextDouble(); 
+        n3=scan.nextDouble(); 
+        
+        media= ((n1*2)+(n2*3)+(n3*5))/10; 
+        
+        System.out.println("A media do Alun é : "+media);
+        
+    }
+    
+}
