@@ -1,0 +1,29 @@
+
+package com.mycompany.exercicios;
+import java.util.Scanner;
+
+
+public class Ex1002 {
+
+  
+    
+    public static void main(String[] args) {
+             Scanner scan = new Scanner (System.in);
+             
+             double n , raio , area ; 
+             
+             n=3.14 ; 
+             
+             System.out.println("Digite o valor do raio");
+             raio=scan.nextDouble();
+             
+             area = n*(raio*raio);
+             System.out.println("Valor da Area :"+ area );
+         
+        
+        
+        
+       
+    }
+    
+}
