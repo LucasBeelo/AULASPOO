@@ -1,0 +1,29 @@
+package com.mycompany.exercicios;
+
+
+import java.util.Scanner;   
+
+public class Ex1004 {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner (System.in);
+        int A , B , Soma; 
+        
+        
+        
+        System.out.println (" Digite o primeiro numero  ");
+        int A = scan.nextInt(); 
+        
+        System.out.println(" Digite o Segundo Numero ");
+        int B = scan.nextInt();
+        
+        Soma= A*B ; 
+        
+        System.out.println("o resultado é " + Soma);
+        
+        
+        
+   
+    }
+    
+}
