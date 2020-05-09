@@ -1,0 +1,24 @@
+
+package ex1008;
+import java.util.Scanner; 
+ 
+public class eX008 {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner (System.in);
+        
+     
+       int NmFunc ;  
+       double ValorH,horasT,salario; 
+
+        System.out.println("Digite o Numero do Funcionario : ");
+        NmFunc=scan.nextInt();
+        System.out.println("VALOR HORAS TRABALHADAS: ");
+         horasT=scan.nextDouble();
+        System.out.println("VALOR PAGO POR HORA : ");
+        ValorH=scan.nextDouble();
+        
+        salario = horasT*ValorH;
+        
+         System.out.println("Numero do Funcionaro"+NmFunc);
+        System.out.println("Valor Do salario :"+salario );
